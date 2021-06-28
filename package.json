@@ -1,0 +1,17 @@
+{
+  "name": "try-plugin-absolute",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "prepublishOnly": "babel --out-dir dist src"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@dword-design/babel-config": "^2.0.4",
+    "@dword-design/eslint-config": "^2.0.7",
+    "eslint": "^7.29.0"
+  }
+}
